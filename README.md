@@ -6,7 +6,7 @@
 </div>
 
 
-<h3 align="center">Milos Todorov PhD, University professor and data scientist</h3>
+<h3 align="center">Milos Todorov PhD, univerzitetski profesor</h3>
 
 - 🔭 I’m currently working on **faculty**
 
