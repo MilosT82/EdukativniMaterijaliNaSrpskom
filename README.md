@@ -100,6 +100,15 @@ U prethodnom primeru 3. je prikazana jedna od metoda koja može da se primeni na
 |$${\color{red}reverse()}$$ | Obrće elemente u listi  |
 |$${\color{red}sort()}$$ | Sortira elemente u listi |
 
+U prethodnoj tabeli 2. Prikazane su neke od naredbi koje mogu da se primene na Python listama. Pored python naredbi, postoji biblioteka NumPy, koja je pogodna za rad sa listama i matricama. Kreirao ju je Travis Oliphant 2005. godine.
+
+Ova Python biblioteka se nalazi na sledećoj web adresi: 
+<a href="https://numpy.org/">Nunpy</a> 
+
+Sledi prikaz date biblioteke.
+
+
+
 ## Kreiranje listi pomocu Numpy biblioteke
 
 
