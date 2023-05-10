@@ -33,7 +33,7 @@
 
 - **Liste u Pythonu mogu da sadrže stringove, brojeve, ili druge liste. One služe za skladištenje drugih objekata**
 
-- **Elementima liste pristupamo pomoću indeksa, sa tim da u Pythonu indeksi kreću od nuleV
+- **Elementima liste pristupamo pomoću indeksa, sa tim da u Pythonu indeksi kreću od nule**
 
 - **Liste u Pythonu mogu da se proširuju, skraćuju, spajaju, kao i da se obriše deo liste. Python podržava mogućnost da se liste kreiraju u okviru liste**
 
