@@ -52,7 +52,7 @@
 
 ### Formiranje liste u Pythonu
 
-
+**Primer 1:** Formiranje liste u Pythonu
 ```python
 listaElemenata = ['a','b','c',['e','m'],'d','f',5,6,10,11.5]
 print(listaElemenata)
@@ -60,7 +60,7 @@ print(listaElemenata)
 
 ### Pristupanje elementima liste pomocu indeksa
 
-
+**Primer 2:** Pristupanje elementu liste
 ```python
 listaElemenata[3][1]
 ```
@@ -75,7 +75,7 @@ Ovo je primer ugnježdene liste. Pošto indeksi u Pythonu kreću od nule, lista 
 
 ### Dodavanje Elementa na kraju liste
 
-
+**Primer 3:** Dodavanje elementa na kraj listi
 ```python
 listaElemenata.append('DodatiElement')
 print(listaElemenata)
@@ -126,6 +126,14 @@ Neke od prednosti korišćenja biblioteke Numpy:
 
 
 ## Kreiranje listi pomocu Numpy biblioteke
+
+- **Kod  Numpy listi važe sve operacije sa listama kao i kod klasičnih Python listi**
+
+- **Elementima NumPy liste pristupamo takođe pomoću indeksa, kao što je prikazano u primeru 2**
+
+Slede primeri kreiranja listi. Da bi se koristila neka biblioteka u Pythonu, ona mora da se pozove pomoću naredbe $${\color{red}import}$$.
+
+**Primer 4:** Kreiranje različitih Numpy listi
 
 
 ```python
