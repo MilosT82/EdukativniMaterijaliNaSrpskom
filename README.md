@@ -86,6 +86,15 @@ print(listaElemenata)
 U prethodnom primeru 3. je prikazana jedna od metoda koja može da se primeni na Python listama. Sledi tabela sa metodama koje se koriste u okviru Python listi.
 
 **Tabela 2:** Metode u okviru lista u Pythonu 
+| Metoda  | Objasnjenje |
+| ------------- | ------------- |
+|$${\color{red}append()}$$ | Predstavljaju tekstualne podatke koji se prikazuju pod navodnicima, na primer ‘Lista’  |
+|$${\color{red}clear()}$$ | Predstavljaju cele brojeve, na primer -2, 0, 5 |
+|$${\color{red}Float}$$ | Predstavljaju realne brojeve, na primer 4.2, -3.6 |
+|$${\color{red}Complex}$$ | Predstavljaju kompleksne brojeve, npr 3.0 + 2.0j  |
+|$${\color{red}Boolean}$$ | Predstavlja tip koji može imati logičke vrednosti, tačno, ili netačno, odnosno True, ili False  |
+
+
 
 ## Kreiranje listi pomocu Numpy biblioteke
 
