@@ -39,6 +39,7 @@
 
 - **Python ima sledeće tipove podataka koji mogu da se nađu u listama**
 
+**Tabela 1:** Tipovi podataka u Pythonu
 | Tip promenljive  | Objasnjenje |
 | ------------- | ------------- |
 |$${\color{red}String}$$ | Predstavljaju tekstualne podatke koji se prikazuju pod navodnicima, na primer ‘Lista’  |
@@ -82,6 +83,9 @@ print(listaElemenata)
 
     ['a', 'b', 'c', ['e', 'm'], 'd', 'f', 5, 6, 10, 11.5, 'DodatiElement']
     
+U prethodnom primeru 3. je prikazana jedna od metoda koja može da se primeni na Python listama. Sledi tabela sa metodama koje se koriste u okviru Python listi.
+
+**Tabela 2:** Metode u okviru lista u Pythonu 
 
 ## Kreiranje listi pomocu Numpy biblioteke
 
