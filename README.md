@@ -39,6 +39,15 @@
 
 - **Python ima sledeće tipove podataka koji mogu da se nađu u listama**
 
+| Tip promenljive  | Objasnjenje |
+| ------------- | ------------- |
+|$${\color{red}String}$$ | Predstavljaju tekstualne podatke koji se prikazuju pod navodnicima, na primer ‘Lista’  |
+|$${\color{red}Integer}$$ | Predstavljaju cele brojeve, na primer -2, 0, 5 |
+|$${\color{red}Float}$$ | Predstavljaju realne brojeve, na primer 4.2, -3.6 |
+|$${\color{red}Complex}$$ | Predstavljaju kompleksne brojeve, npr 3.0 + 2.0j  |
+|$${\color{red}Boolean}$$ | Predstavlja tip koji može imati logičke vrednosti, tačno, ili netačno, odnosno True, ili False  |
+
+
 
 ### Formiranje liste u Pythonu
 
