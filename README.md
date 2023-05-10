@@ -131,7 +131,7 @@ Neke od prednosti korišćenja biblioteke Numpy:
 
 - **Elementima NumPy liste pristupamo takođe pomoću indeksa, kao što je prikazano u primeru 2**
 
-Slede primeri kreiranja listi. Da bi se koristila neka biblioteka u Pythonu, ona mora da se pozove pomoću naredbe $${\color{red}import}$$.
+Slede primeri kreiranja listi. Da bi se koristila neka biblioteka u Pythonu, ona mora da se pozove pomoću naredbe ${\color{red}import}$.
 
 **Primer 4:** Kreiranje različitih Numpy listi
 
