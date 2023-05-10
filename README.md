@@ -107,6 +107,22 @@ Ova Python biblioteka se nalazi na sledećoj web adresi:
 
 Sledi prikaz date biblioteke.
 
+## Prednosti biblioteke NumPy
+
+Neke od prednosti korišćenja biblioteke Numpy:
+- **NumPy kreira niz objekata koji je 50x puta brži od klasičnih Python listi** 
+
+- **Niz objekata u NumPy se naziva ndarray, koji obezbeđuje korišćenje gomile funkcija sa listama**
+
+- **Sadrži funkcije koje mogu da se koriste u matematičkim oblastima linearne algebre, Furijeove transformacije, kao i matricama, kao i mnogih drugih matematičkih funkcija**
+
+- **Ima veliku upotrebu u oblasti veštačke inteligencije, odnosno pri korišćenju ML agoritama**
+
+- **NumPy liste se smeštaju na jednom mestu u memoriji i iz tog razloga, lako im je pristupiti, što mogućava optimizaciju i brži rad sa listama**
+
+- **Numpy ima mogućnost kreiranja različitih distribucija, kao što su Normalna, Poasonova, Uniformna, Logistička itd…**
+
+- **Pored svega navedenog NumPy ima sve metode, kao i klasične Python liste, dok je lista tipova podataka proširena**
 
 
 ## Kreiranje listi pomocu Numpy biblioteke
