@@ -165,6 +165,10 @@ print('Lista L4: \n',L4)
 
 ### Drugi način kreiranja Numpy listi
 
+Postoji i drugi načini da kreiraju brojčane liste u zavisnosti od potrebe, a što će biti prikazano u narednom primeru.
+
+**Primer 5:** Nekoliko drugih načina kreiranja Numpy listi
+
 
 ```python
 
