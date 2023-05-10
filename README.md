@@ -70,6 +70,7 @@ listaElemenata[3][1]
     'm'
 
 
+Ovo je primer ugnježdene liste. Pošto indeksi u Pythonu kreću od nule, lista u okviru liste sa elementima ['e','m'] se nalazi na trećem indeksu, a elemenat 'm' je u okviru date liste na prvom mestu, tj.indeksu.
 
 ### Dodavanje Elementa na kraju liste
 
