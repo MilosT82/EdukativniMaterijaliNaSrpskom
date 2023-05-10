@@ -88,13 +88,17 @@ U prethodnom primeru 3. je prikazana jedna od metoda koja može da se primeni na
 **Tabela 2:** Metode u okviru lista u Pythonu 
 | Metoda  | Objasnjenje |
 | ------------- | ------------- |
-|$${\color{red}append()}$$ | Predstavljaju tekstualne podatke koji se prikazuju pod navodnicima, na primer ‘Lista’  |
-|$${\color{red}clear()}$$ | Predstavljaju cele brojeve, na primer -2, 0, 5 |
-|$${\color{red}Float}$$ | Predstavljaju realne brojeve, na primer 4.2, -3.6 |
-|$${\color{red}Complex}$$ | Predstavljaju kompleksne brojeve, npr 3.0 + 2.0j  |
-|$${\color{red}Boolean}$$ | Predstavlja tip koji može imati logičke vrednosti, tačno, ili netačno, odnosno True, ili False  |
-
-
+|$${\color{red}append()}$$ | Dodavanje elementa na kraju liste  |
+|$${\color{red}clear()}$$ | Briše sve elemente liste |
+|$${\color{red}copy()}$$ | Vraća kopiju liste |
+|$${\color{red}count()}$$ | Prebraja elemente liste  |
+|$${\color{red}extend()}$$ | Dodaje elemente neke druge liste, na kraj postojeće liste  |
+|$${\color{red}index()}$$ | Vraća elemenat na definisanoj poziciji indeksa  |
+|$${\color{red}insert()}$$ | Ubacuje elemenat u listu na određenu poziciju |
+|$${\color{red}pop()}$$ | Briše elemenat u listi na određenoj poziciji indeksa |
+|$${\color{red}remove()}$$ | Briše tačno određeni elemenat u listi koji se navede u okviru ove metode, odnosno naredbe   |
+|$${\color{red}reverse()}$$ | Obrće elemente u listi  |
+|$${\color{red}sort()}$$ | Sortira elemente u listi |
 
 ## Kreiranje listi pomocu Numpy biblioteke
 
