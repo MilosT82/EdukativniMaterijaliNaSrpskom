@@ -1,3 +1,7 @@
+# Numpy liste i matrice
+
+### Autor: dr Milos Todorov
+
 <div align="center">
  <h3>
 	<img src="https://miro.medium.com/max/720/1*CDj-lEsfn9HAbpMSNmziLQ.gif"      width="300" 
@@ -23,9 +27,7 @@
 <h3 align="left">Programski jezik:</h3>
 <p align="left"> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> </p>
 
-# Numpy liste i matrice
 
-### Autor: Milos Todorov
 
 ## Python Liste - kratki osvrt
 
