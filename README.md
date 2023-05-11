@@ -221,6 +221,7 @@ $$
 Brojevi $a_{ij}, b_i, i=1,2, \cdots ,m$, $j=1,2, \cdots ,n$ nazivaju se koeficijenti sistema.
 
 **Matricom** nazivamo pravougaonu šemu oblika $m \times n$ sastavljenu od elemenata $a_{ij}$, raspoređenih u $m$ vrsta i $n$ kolona.
+
 ![image](https://github.com/MilosT82/NumpyListeMatrice/assets/84227323/6fec0704-fa20-4cee-b37c-bdfd51b6b378)
 
 Matrica se može označiti na sledeći način $[a_{ij}]_{m \times n}$. Ova matrica ima koja ima $m$ vrsta i $n$ kolona ima dimenziju $m \times n$.
