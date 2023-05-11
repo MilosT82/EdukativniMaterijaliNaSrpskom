@@ -246,10 +246,7 @@ Elementi  $a_{11}, a_{22},⋯,a_{mn}$  su na GLAVNOJ DIJAGONALI (označeno plavo
 
 ### Sabiranje matrica
 
-
-Elementi   $\displaystyle {A = \[a_{ij}\]_{m \times n}}$  su na GLAVNOJ DIJAGONALI (označeno plavom bojom), a elementi $a_{1n},⋯,a_{m1}$  su na SPOREDNOJ DIJAGONALI (označeno crvenom bojom).
-
-Zbir matrica $\displaystyle {A = \[a_{ij}\]_{m \times n}}$ i a elementi $ffff$ vbcb $\displaystyle {A = \[a_{ij}\]_{m \times n}}$
+Zbir matrica $A =\left[ \displaystyle a_{ij}  \right]_{m \times n}$
 
 $a_{1n},⋯,a_{m1}$  su na SPOREDNOJ DIJAGONALI (označeno crvenom bojom).
 
@@ -269,6 +266,11 @@ b_{11} & b_{12} & \cdots & b_{1 n} \\
 b_{21} & b_{22} & \cdots & b_{2 n} \\
 \vdots & \vdots & & \vdots \\
 b_{m 1} & b_{m 2} & \cdots & b_{m n}
+\end{array}\right]=\left[\begin{array}{cccc}
+c_{11} & c_{12} & \cdots & c_{1 n} \\
+c_{21} & c_{22} & \cdots & c_{2 n} \\
+\vdots & \vdots & & \vdots \\
+c_{m 1} & c_{m 2} & \cdots & c_{m n}
 \end{array}\right]
 $$
 
@@ -283,6 +285,42 @@ a_{m 1} \cdot b_{11}+a_{m 2} \cdot b_{21}+\cdots+a_{m p} \cdot b_{p 1} & a_{m 1}
 \end{array}\right]
 $$
 
+## inverzna
+
+$$
+\begin{array}{llll}
+A_{11} & =\left|\begin{array}{ll}
+-2 & -3 \\
+-1 & -2
+\end{array}\right|=1 & A_{21}=-\left|\begin{array}{cc}
+2 & 2 \\
+-1 & -2
+\end{array}\right|=2 & A_{31}=\left|\begin{array}{cc}
+2 & 2 \\
+-2 & -3
+\end{array}\right|=-2 \\
+A_{12} & =-\left|\begin{array}{ll}
+1 & -3 \\
+1 & -2
+\end{array}\right|=-1 & A_{22}=\left|\begin{array}{cc}
+1 & 2 \\
+1 & -2
+\end{array}\right|=-4 & A_{32}=-\left|\begin{array}{cc}
+1 & 2 \\
+1 & -3
+\end{array}\right|=5 \\
+A_{13} & =\left|\begin{array}{cc}
+1 & -2 \\
+1 & -1
+\end{array}\right|=1 & A_{23}=-\left|\begin{array}{cc}
+1 & 2 \\
+1 & -1
+\end{array}\right|=3 & A_{33}=\left|\begin{array}{cc}
+1 & 2 \\
+1 & -2
+\end{array}\right|=-4
+\end{array}
+$$
 
 ## Kreiranje matrica pomocu Numpy biblioteke
 
