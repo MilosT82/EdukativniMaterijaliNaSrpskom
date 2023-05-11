@@ -205,6 +205,20 @@ print('Lista L10: \n',L10)
     Lista L10: 
      [9 4 2 7 5]
     
+## Matrice
+
+
+
+
+$$
+\left[\begin{array}{cccc}
+a_{11} \cdot b_{11}+a_{12} \cdot b_{21}+\cdots+a_{1 p} \cdot b_{p 1} & a_{11} \cdot b_{12}+a_{12} \cdot b_{22}+\cdots+a_{1 p} \cdot b_{p 2} & \cdots & a_{11} \cdot b_{1 n}+a_{12} \cdot b_{2 n}+\cdots+a_{1 p} \cdot b_{p n} \\
+a_{21} \cdot b_{11}+a_{22} \cdot b_{21}+\cdots+a_{2 p} \cdot b_{p 1} & a_{21} \cdot b_{12}+a_{22} \cdot b_{22}+\cdots+a_{2 p} \cdot b_{p 2} & \cdots & a_{21} \cdot b_{1 n}+a_{22} \cdot b_{2 n}+\cdots+a_{2 p} \cdot b_{p n} \\
+\vdots & \vdots & & \vdots \\
+a_{m 1} \cdot b_{11}+a_{m 2} \cdot b_{21}+\cdots+a_{m p} \cdot b_{p 1} & a_{m 1} \cdot b_{12}+a_{m 2} \cdot b_{22}+\cdots+a_{m p} \cdot b_{p 2} & \cdots & a_{m 1} \cdot b_{1 n}+a_{m 2} \cdot b_{2 n}+\cdots+a_{m p} \cdot b_{p n}
+\end{array}\right]
+$$
+
 
 ## Kreiranje matrica pomocu Numpy biblioteke
 
