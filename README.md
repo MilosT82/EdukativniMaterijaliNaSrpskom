@@ -223,6 +223,24 @@ Brojevi $a_{ij}, b_i, i=1,2, \cdots ,m$, $j=1,2, \cdots ,n$ nazivaju se koeficij
 **Matricom** nazivamo pravougaonu šemu oblika $m \times n$ sastavljenu od elemenata $a_{ij}$, raspoređenih u $m$ vrsta i $n$ kolona.
 ![image](https://github.com/MilosT82/NumpyListeMatrice/assets/84227323/6fec0704-fa20-4cee-b37c-bdfd51b6b378)
 
+Matrica se može označiti na sledeći način $[a_{ij}]_{m \times n}$. Ova matrica ima koja ima $m$ vrsta i $n$ kolona ima dimenziju $m \times n$.
+Matrica 
+
+$$
+\begin{bmatrix}
+5 & 1 & 2\\
+6 & 6 & 7
+\end{bmatrix}
+$$
+
+je reda 2x3, jer ima 2 vrste i 3 kolone.
+
+**NAPOMENA:** Determinanta je realan broj, koji je zapisan kao šema brojeva, za razliku od matrice koja je šema proizvoljnih elemenata.
+
+Elementi  $a_{11}, a_{22},⋯,a_{mn}$  su na GLAVNOJ DIJAGONALI (označeno plavom bojom), a elementi $a_{1n},⋯,a_{m1}$  su na SPOREDNOJ DIJAGONALI (označeno crvenom bojom).
+
+![image](https://github.com/MilosT82/NumpyListeMatrice/assets/84227323/6fdff449-85ef-4d6d-9134-6122a25b1980)
+
 
 $$
 \left[\begin{array}{cccc}
