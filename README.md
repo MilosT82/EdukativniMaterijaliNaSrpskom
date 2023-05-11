@@ -258,6 +258,19 @@ $\displaystyle {B = \[b_{ij}\]_{m \times n}}$
 
 koje su istih dimenzija je matrica $$\displaystyle {C = \[c_{ij}\]_{m \times n}}$, $i=1,2, \cdots ,m$, $j=1,2, \cdots ,n$, gde je $\[a_{ij}\]_{m \times n} + \[b_{ij}\]_{m \times n} = \[c_{ij}\]_{m \times n}$.
 
+$$
+C=A+B=\left[\begin{array}{cccc}
+a_{11} & a_{12} & \cdots & a_{1 n} \\
+a_{21} & a_{22} & \cdots & a_{2 n} \\
+\vdots & \vdots & & \vdots \\
+a_{m 1} & a_{m 2} & \cdots & a_{m n}
+\end{array}\right]+\left[\begin{array}{cccc}
+b_{11} & b_{12} & \cdots & b_{1 n} \\
+b_{21} & b_{22} & \cdots & b_{2 n} \\
+\vdots & \vdots & & \vdots \\
+b_{m 1} & b_{m 2} & \cdots & b_{m n}
+\end{array}\right]
+$$
 
 ### Množenje matrica
 
