@@ -207,7 +207,7 @@ print('Lista L10: \n',L10)
     
 ## Matrice
 
-Neka je zadat sistem od $m$ linearnih jednačina sa $n$ nepoznatih $x_1,x_2, \cdot ,x_n$.
+Neka je zadat sistem od $m$ linearnih jednačina sa $n$ nepoznatih $x_1,x_2, \cdots ,x_n$.
 
 $$
 \begin{matrix}
@@ -218,7 +218,9 @@ $$
 \end{matrix}
 $$
 
-Brojevi $a_{ij}, b_i, i=1,2, \cdots ,m$ $j=1,2, \cdots ,n$ nazivaju se koeficijenti sistema.
+Brojevi $a_{ij}, b_i, i=1,2, \cdots ,m$, $j=1,2, \cdots ,n$ nazivaju se koeficijenti sistema.
+
+**Matricom** nazivamo pravougaonu šemu oblika $m \times n$ sastavljenu od elemenata $a_{ij}$, raspoređenih u $m$ vrsta i $n$ kolona.
 
 $$
 \left[\begin{array}{cccc}
