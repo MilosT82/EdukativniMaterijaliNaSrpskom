@@ -242,6 +242,14 @@ Elementi  $a_{11}, a_{22},⋯,a_{mn}$  su na GLAVNOJ DIJAGONALI (označeno plavo
 
 ![image](https://github.com/MilosT82/NumpyListeMatrice/assets/84227323/6fdff449-85ef-4d6d-9134-6122a25b1980)
 
+## Operacija sa matricama
+
+### Sabiranje matrica
+
+
+Zbir matrica $A = \[a_{ij}\]_{m \times n}$  i  $B = \[b_{ij}\]_{m \times n}$ koje su istih dimenzija je matrica $C = \[c_{ij}\]_{m \times n}$, $i=1,2, \cdots ,m$, $j=1,2, \cdots ,n$, gde je $\[a_{ij}\]_{m \times n} + \[b_{ij}\]_{m \times n} = \[c_{ij}\]_{m \times n}$.
+
+
 
 $$
 \left[\begin{array}{cccc}
