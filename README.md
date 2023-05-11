@@ -247,9 +247,19 @@ Elementi  $a_{11}, a_{22},⋯,a_{mn}$  su na GLAVNOJ DIJAGONALI (označeno plavo
 ### Sabiranje matrica
 
 
-Zbir matrica $A = \[a_{ij}\]_{m \times n}$  i  $B = \[b_{ij}\]_{m \times n}$ koje su istih dimenzija je matrica $C = \[c_{ij}\]_{m \times n}$, $i=1,2, \cdots ,m$, $j=1,2, \cdots ,n$, gde je $\[a_{ij}\]_{m \times n} + \[b_{ij}\]_{m \times n} = \[c_{ij}\]_{m \times n}$.
+Elementi   $\displaystyle {A = \[a_{ij}\]_{m \times n}}$  su na GLAVNOJ DIJAGONALI (označeno plavom bojom), a elementi $a_{1n},⋯,a_{m1}$  su na SPOREDNOJ DIJAGONALI (označeno crvenom bojom).
+
+Zbir matrica $\displaystyle {A = \[a_{ij}\]_{m \times n}}$ i a elementi $ffff$ vbcb $\displaystyle {A = \[a_{ij}\]_{m \times n}}$
+
+$a_{1n},⋯,a_{m1}$  su na SPOREDNOJ DIJAGONALI (označeno crvenom bojom).
+
+$\displaystyle {B = \[b_{ij}\]_{m \times n}}$ 
 
 
+koje su istih dimenzija je matrica $$\displaystyle {C = \[c_{ij}\]_{m \times n}}$, $i=1,2, \cdots ,m$, $j=1,2, \cdots ,n$, gde je $\[a_{ij}\]_{m \times n} + \[b_{ij}\]_{m \times n} = \[c_{ij}\]_{m \times n}$.
+
+
+### Množenje matrica
 
 $$
 \left[\begin{array}{cccc}
