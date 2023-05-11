@@ -208,15 +208,17 @@ print('Lista L10: \n',L10)
 ## Matrice
 
 Neka je zadat sistem od $m$ linearnih jednačina sa $n$ nepoznatih $x_1,x_2, \cdot ,x_n$.
+
 $$
-\begin{gathered}
-a_{11} x_1+a_{12} x_2+\cdots+a_{1 n} x_n=b_1 \\
-a_{21} x_1+a_{12} x_2+\cdots+a_{2 n} x_n=b_2 \\
-\vdots \\
-a_{m 1} x_1+a_{m 2} x_2+\cdots+a_{m n} x_n=b_m
-\end{gathered}
+\begin{matrix}
+ a_{11} \cdot x_1+a_{12} \cdot x_2+ \cdots +a_{1 n} \cdot x_n=b_1 \\
+ a_{21} \cdot x_1+a_{12} \cdot x_2+ \cdots +a_{2 n} \cdot x_n=b_2 \\
+ \vdots \\
+ a_{m 1} \cdot x_1+a_{m 2} \cdot x_2+ \cdots +a_{m n} \cdot x_n=b_m
+\end{matrix}
 $$
 
+Brojevi $a_{ij}, b_i, i=1,2, \cdots ,m$ $j=1,2, \cdots ,n$ nazivaju se koeficijenti sistema.
 
 $$
 \left[\begin{array}{cccc}
