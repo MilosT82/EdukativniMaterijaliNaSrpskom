@@ -1,7 +1,7 @@
 # Numpy liste i matrice
 
 ### Autor: dr Milos Todorov
-
+NAPOMENA: Materijal sa ovog repozitorijuma, pripremljen je i u vidu PDF, kao i propratni Python kod 
 <div align="center">
  <h3>
 	<img src="https://miro.medium.com/max/720/1*CDj-lEsfn9HAbpMSNmziLQ.gif"      width="300" 
@@ -314,11 +314,89 @@ C=A+B= \begin{bmatrix}
 \end{bmatrix}
 $$
 
+### Proizvod matrice sa skalarom
+
+Proizvod matrice sa skalarom je matrica koja se dobije kada scalar $\gamma  \in  \mathbb{R}$ pomnožimo sa svakim elementom matrice $A =\left[a_{ij}  \right]$ reda $m \times n$.
+$$\gamma \cdot A= A =\gamma \cdot \left[a_{ij}  \right]= \left[\gamma \cdot a_{ij}  \right]$$
+
+
+$$
+\gamma \cdot A=\gamma \cdot \left[\begin{array}{cccc}
+a_{11} & a_{12} & \cdots & a_{1 n} \\
+a_{21} & a_{22} & \cdots & a_{2 n} \\
+\vdots & \vdots & & \vdots \\
+a_{m 1} & a_{m 2} & \cdots & a_{m n}
+\end{array}\right]=\left[\begin{array}{cccc}
+\gamma \cdot a_{11} & \gamma \cdot  a_{12} & \cdots & \gamma \cdot a_{1 n} \\
+\gamma \cdot a_{21} & \gamma \cdot a_{22} & \cdots & \gamma \cdot  a_{2 n} \\
+\vdots & \vdots & & \vdots \\
+\gamma \cdot a_{m 1} & \gamma \cdot a_{m 2} & \cdots & \gamma \cdot a_{m n}
+\end{array}\right]
+$$
+
+Važe i sledeće osobine:
+- Komutativnost $\gamma \cdot A=A \cdot \gamma$
+- Asocijativnost $(\alpha \cdot \beta) \cdot A=\alpha \cdot (\beta \cdot A)$
+- Distributivnost u odnosu na zbir skalara $(\alpha+ \beta) \cdot A=\alpha \cdot A+\beta \cdot A$
+- Distributivnost u odnosu na zbir matrica $\alpha \cdot (A+B)=\alpha \cdot A+\alpha \cdot B$
+
+**Primer 7:** Pomnožiti matricu 
+
+$$
+A= \begin{bmatrix}
+1 & 3 & 1\\
+1 & 5 & 4\\
+1 & 2 & 4
+\end{bmatrix}$$ 
+
+sa skalarom $\gamma = 2$.
+
+
+**Rešenje:**
+
+$$
+2 \cdot A=2 \cdot \begin{bmatrix}
+1 & 3 & 1\\
+1 & 5 & 4\\
+1 & 2 & 4
+\end{bmatrix} \text{=}
+\begin{bmatrix}
+2 \cdot 1 & 2 \cdot 3 & 2 \cdot 1\\
+2 \cdot 1 & 2 \cdot 5 & 2 \cdot 4\\
+2 \cdot 1 & 2 \cdot 2 & 2 \cdot 4
+\end{bmatrix} \text{=}
+\begin{bmatrix}
+2 & 6 & 2\\
+2 & 10 & 8\\
+2 & 4 & 8
+\end{bmatrix}
+$$
+
 
 ### Množenje matrica
 
+Proizvod matrica je matrica $C =\left[c_{ij}  \right]$ reda $m \times n$ koja se dobije kada se pomnože matrica $A =\left[a_{ij}  \right]$ reda $m \times p$ matrica $B =\left[b_{ij}  \right]$ reda $p \times n$. Elementi matrice C se dobijaju na sledeći način:
+
+$$ \sum_{k=1}^{p} {a_{ik} \cdot b_{kj}} \text{.}$$
+
+Kada se prikaže pomoću koeficijenata imamo sledeći zapis.
+
 $$
-\left[\begin{array}{cccc}
+C=A \cdot B=\left[\begin{array}{cccc}
+a_{11} & a_{12} & \cdots & a_{1 p} \\
+a_{21} & a_{22} & \cdots & a_{2 p} \\
+\vdots & \vdots & & \vdots \\
+a_{m 1} & a_{m 2} & \cdots & a_{m p}
+\end{array}\right] \cdot \left[\begin{array}{cccc}
+b_{11} & b_{12} & \cdots & b_{1 n} \\
+b_{21} & b_{22} & \cdots & b_{2 n} \\
+\vdots & \vdots & & \vdots \\
+b_{p 1} & b_{p 2} & \cdots & b_{p n}
+\end{array}\right]
+$$
+
+$$
+C=\left[\begin{array}{cccc}
 a_{11} \cdot b_{11}+a_{12} \cdot b_{21}+\cdots+a_{1 p} \cdot b_{p 1} & a_{11} \cdot b_{12}+a_{12} \cdot b_{22}+\cdots+a_{1 p} \cdot b_{p 2} & \cdots & a_{11} \cdot b_{1 n}+a_{12} \cdot b_{2 n}+\cdots+a_{1 p} \cdot b_{p n} \\
 a_{21} \cdot b_{11}+a_{22} \cdot b_{21}+\cdots+a_{2 p} \cdot b_{p 1} & a_{21} \cdot b_{12}+a_{22} \cdot b_{22}+\cdots+a_{2 p} \cdot b_{p 2} & \cdots & a_{21} \cdot b_{1 n}+a_{22} \cdot b_{2 n}+\cdots+a_{2 p} \cdot b_{p n} \\
 \vdots & \vdots & & \vdots \\
