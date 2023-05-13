@@ -248,6 +248,7 @@ Elementi  $a_{11}, a_{22},⋯,a_{mn}$  su na GLAVNOJ DIJAGONALI (označeno plavo
 
 Zbir matrica $A =\left[a_{ij}  \right]$ i $B =\left[a_{ij}  \right]$ reda $m \times n$ je matrica $C = [c_{ij}]$,  $i=1,2, \cdots ,m$, $j=1,2, \cdots ,n$ koja je istog reda, gde je $\[a_{ij}\] + \[b_{ij}\] = \[c_{ij}\]$.
 
+Mogu da se sabiraju samo matrice istih dimenzija. Sabira se svaki elemenat prve matrice sa odgovarajućim elementom druge matrice.
 
 $$
 C=A+B=\left[\begin{array}{cccc}
@@ -267,6 +268,11 @@ c_{21} & c_{22} & \cdots & c_{2 n} \\
 c_{m 1} & c_{m 2} & \cdots & c_{m n}
 \end{array}\right]
 $$
+
+Važe i sledeće osobine:
+- Komutativnost $A+B=B+A$
+- Asocijativnost $(A+B)+C=A+(B+C)$
+
 
 ### Množenje matrica
 
