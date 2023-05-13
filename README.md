@@ -246,14 +246,8 @@ Elementi  $a_{11}, a_{22},⋯,a_{mn}$  su na GLAVNOJ DIJAGONALI (označeno plavo
 
 ### Sabiranje matrica
 
-Zbir matrica $A =\left[ \displaystyle a_{ij}  \right]_{m \times n}$
+Zbir matrica $A =\left[a_{ij}  \right]$ i $B =\left[a_{ij}  \right]$ reda $m \times n$ je matrica $C = [c_{ij}]$,  $i=1,2, \cdots ,m$, $j=1,2, \cdots ,n$ koja je istog reda, gde je $\[a_{ij}\] + \[b_{ij}\] = \[c_{ij}\]$.
 
-$a_{1n},⋯,a_{m1}$  su na SPOREDNOJ DIJAGONALI (označeno crvenom bojom).
-
-$\displaystyle {B = \[b_{ij}\]_{m \times n}}$ 
-
-
-koje su istih dimenzija je matrica $$\displaystyle {C = \[c_{ij}\]_{m \times n}}$, $i=1,2, \cdots ,m$, $j=1,2, \cdots ,n$, gde je $\[a_{ij}\]_{m \times n} + \[b_{ij}\]_{m \times n} = \[c_{ij}\]_{m \times n}$.
 
 $$
 C=A+B=\left[\begin{array}{cccc}
