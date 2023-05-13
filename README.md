@@ -273,6 +273,47 @@ Važe i sledeće osobine:
 - Komutativnost $A+B=B+A$
 - Asocijativnost $(A+B)+C=A+(B+C)$
 
+**Primer 6:** Sabrati matrice:
+
+
+$$
+A= \begin{bmatrix}
+1 & 3 & 1\\
+1 & 5 & 4\\
+1 & 2 & 4
+\end{bmatrix} \text{i } 
+B= \begin{bmatrix}
+1 & 2 & 1\\
+-1 & 4 & 8\\
+-2 & -1 & 4
+\end{bmatrix}
+{.}$$
+
+**Rešenje:**
+
+$$
+C=A+B= \begin{bmatrix}
+1 & 3 & 1\\
+1 & 5 & 4\\
+1 & 2 & 4
+\end{bmatrix} \text{+} 
+\begin{bmatrix}
+1 & 2 & 1\\
+-1 & 4 & 8\\
+-2 & -1 & 4
+\end{bmatrix} \text{=}
+\begin{bmatrix}
+1+1 & 3+2 & 1+1\\
+1-1 & 5+4 & 4+8\\
+1-2 & 2-1 & 4+4
+\end{bmatrix} \text{=}
+\begin{bmatrix}
+2 & 5 & 2\\
+0 & 9 & 12\\
+-1 & 1 & 8
+\end{bmatrix}
+$$
+
 
 ### Množenje matrica
 
