@@ -507,6 +507,33 @@ A^T= \begin{bmatrix}
 \end{bmatrix}
 $$
 
+**Primer 10:** Neka je data matrica
+
+$$
+A= \begin{bmatrix}
+1 & 4 & 7\\
+2 & 5 & 8 \\
+3 & 6 & 9
+\end{bmatrix} \text{.}
+$$
+
+Naći njenu transponovanu matricu.
+
+**Resenje:**
+
+$$
+A= \begin{bmatrix}
+1 & 4 & 7\\
+2 & 5 & 8 \\
+3 & 6 & 9
+\end{bmatrix} \Rightarrow
+A^T= \begin{bmatrix}
+1 & 2 & 3\\
+4 & 5 & 6 \\
+7 & 8 & 9
+\end{bmatrix}
+$$
+
 ## inverzna
 
 $$
