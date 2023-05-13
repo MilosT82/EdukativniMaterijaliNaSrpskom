@@ -411,7 +411,7 @@ Važe i sledeće osobina:
 
 U opštem slučaju ne važi komutativnost $A \cdot B \neq B \cdot A$.
 
-Primer 8: Pomnožiti matrice 
+**Primer 8:** Pomnožiti matrice 
 
 $$
 A= \begin{bmatrix}
@@ -425,6 +425,26 @@ B= \begin{bmatrix}
 -2 & -1
 \end{bmatrix}
 {.}$$
+
+**Rešenje:**
+
+$$
+C=A \cdot B= \begin{bmatrix}
+1 & 3 & 1\\
+1 & 5 & 4\\
+1 & 2 & 4
+\end{bmatrix} \cdot 
+\begin{bmatrix}
+1 & 2 \\
+-1 & 4 \\
+-2 & -1
+\end{bmatrix} =
+\begin{bmatrix}
+1 \cdot 1+3 \cdot (-1)+1 \cdot (-2) & 1 \cdot 2+3 \cdot 4+1 \cdot (-1) \\
+1 \cdot 1+5 \cdot (-1)+4 \cdot (-2) & 1 \cdot 2+5 \cdot 4+4 \cdot (-1) \\
+1 \cdot 1+2 \cdot (-1)+4 \cdot (-2) & 1 \cdot 2+2 \cdot 4+2 \cdot (-1)
+\end{bmatrix}
+$$
 
 ## inverzna
 
