@@ -442,7 +442,21 @@ C=A \cdot B= \begin{bmatrix}
 \begin{bmatrix}
 1 \cdot 1+3 \cdot (-1)+1 \cdot (-2) & 1 \cdot 2+3 \cdot 4+1 \cdot (-1) \\
 1 \cdot 1+5 \cdot (-1)+4 \cdot (-2) & 1 \cdot 2+5 \cdot 4+4 \cdot (-1) \\
-1 \cdot 1+2 \cdot (-1)+4 \cdot (-2) & 1 \cdot 2+2 \cdot 4+2 \cdot (-1)
+1 \cdot 1+2 \cdot (-1)+4 \cdot (-2) & 1 \cdot 2+2 \cdot 4+4 \cdot (-1)
+\end{bmatrix}
+$$
+
+$$
+C=A \cdot B=
+\begin{bmatrix}
+1-3-2 & 2+12-1 \\
+1-5-8 & 2+20-4 \\
+1-2-8 & 2+8-4
+\end{bmatrix} =
+\begin{bmatrix}
+-4 & 13 \\
+-12 & 18 \\
+-9 & 6
 \end{bmatrix}
 $$
 
