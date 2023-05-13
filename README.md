@@ -462,7 +462,50 @@ $$
 
 ### Transponovana matrica
 
-Transponovana matrica je matrica u kojoj su vrste(kolone) zamenile mesta sa odgovarajućim kolonama(vrstama), odnosno za matricu $A=[a_{ij}]$ reda $m \times n$   njena transponovana matrica je $A^T=[a_{ji}]$ reda $n \times m$
+Transponovana matrica je matrica u kojoj su vrste(kolone) zamenile mesta sa odgovarajućim kolonama(vrstama), odnosno za matricu $A=[a_{ij}]$ reda $m \times n$   njena transponovana matrica je $A^T=[a_{ji}]$ reda $n \times m$.
+
+
+
+$$
+A= \left[\begin{array}{cccc}
+a_{11} & a_{12} & \cdots & a_{1 n} \\
+a_{21} & a_{22} & \cdots & a_{2 n} \\
+\vdots & \vdots & & \vdots \\
+a_{m 1} & a_{m 2} & \cdots & a_{m n}
+\end{array}\right] \Rightarrow
+A^T= \left[\begin{array}{cccc}
+a_{11} & a_{21} & \cdots & a_{m 1} \\
+a_{12} & a_{22} & \cdots & a_{m 2} \\
+\vdots & \vdots & & \vdots \\
+a_{1 n} & a_{2 n} & \cdots & a_{m n}
+\end{array}\right]
+$$
+
+**Primer 9:** Neka je data matrica
+
+$$
+A= \begin{bmatrix}
+1 & 4 \\
+2 & 5 \\
+3 & 6
+\end{bmatrix} \text{.}
+$$
+
+Naći njenu transponovanu matricu.
+
+**Resenje:**
+
+$$
+A= \begin{bmatrix}
+1 & 4 \\
+2 & 5 \\
+3 & 6
+\end{bmatrix} \Rightarrow
+A^T= \begin{bmatrix}
+1 & 2 & 3\\
+4 & 5 & 6
+\end{bmatrix}
+$$
 
 ## inverzna
 
