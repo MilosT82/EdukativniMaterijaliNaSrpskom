@@ -404,6 +404,28 @@ a_{m 1} \cdot b_{11}+a_{m 2} \cdot b_{21}+\cdots+a_{m p} \cdot b_{p 1} & a_{m 1}
 \end{array}\right]
 $$
 
+**Napomena: **Proizvod dve matrice je definisan samo ako je broj kolona prve matrice jednak sa brojem vrsta druge matrice!
+
+Važe i sledeće osobina:
+- Asocijativnost $(A \cdot B) \cdot C=A \cdot (B \cdot C)$
+
+U opštem slučaju ne važi komutativnost $A \cdot B \neq B \cdot A$.
+
+Primer 8: Pomnožiti matrice 
+
+$$
+A= \begin{bmatrix}
+1 & 3 & 1\\
+1 & 5 & 4\\
+1 & 2 & 4
+\end{bmatrix} \text{i } 
+B= \begin{bmatrix}
+1 & 2 \\
+-1 & 4 \\
+-2 & -1
+\end{bmatrix}
+{.}$$
+
 ## inverzna
 
 $$
