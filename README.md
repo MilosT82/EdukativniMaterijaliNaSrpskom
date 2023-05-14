@@ -46,7 +46,7 @@
 - [Kreiranje matrica pomocu Numpy biblioteke](#kreiranje-matrica-pomocu-numpy-biblioteke)
 - [Operacije sa matricama korišćenjem NumPy biblioteke](#operacije-sa-matricama-korišćenjem-numpy-biblioteke)
 - [Kod generisan od strane ChaGpt za resavanje sistema linearnih jednacina matricnom metodom, koriscenjem biblioteke Numpy](#kod-generisan-od-strane-chagpt-za-resavanje-sistema-linearnih-jednacina-matricnom-metodom-koriscenjem-biblioteke-numpy)
-
+- [Reference](#reference)
 
 ## Python Liste - kratki osvrt 
 
@@ -988,3 +988,12 @@ print(f"z = {x[2]}")
     y = 3.0
     z = -2.0
     
+
+## Reference
+
+1. https://www.programiz.com/python-programming/matrix
+2. https://www.w3schools.com/python/numpy/numpy_intro.asp
+3. https://numpy.org/doc/stable/reference/generated/numpy.array.html#numpy.array
+4. https://numpy.org/doc/stable/reference/generated/numpy.matrix.html
+5. https://www.digitalocean.com/community/tutorials/concatenate-lists-python
+6. https://openai.com/product/gpt-4
