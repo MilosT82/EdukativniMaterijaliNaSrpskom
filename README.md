@@ -27,6 +27,25 @@
 <h3 align="left">Programski jezik:</h3>
 <p align="left"> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> </p>
 
+## Sadrzaj
+
+- [Python Liste - kratki osvrt](#python-liste---kratki-osvrt)
+	- [Formiranje liste u Pythonu](#formiranje-liste-u-pythonu)
+	- [Pristupanje elementima liste pomocu indeksa](#pristupanje-elementima-liste-pomocu-indeksa)
+	- [Dodavanje Elementa na kraju liste](#dodavanje-elementa-na-kraju-liste)
+- [Prednosti biblioteke NumPy](#prednosti-biblioteke-numpy)
+- [Kreiranje listi pomocu Numpy biblioteke](#kreiranje-listi-pomocu-numpy-biblioteke)
+	- [Drugi način kreiranja Numpy listi](#drugi-način-kreiranja-numpy-listi)
+- [Matrice](#matrice)
+- [Operacija sa matricama](#operacija-sa-matricama)
+	- [Sabiranje matrica](#sabiranje-matrica)
+	- [Proizvod matrice sa skalarom](#proizvod-matrice-sa-skalarom)
+	- [Množenje matrica](#množenje-matrica)
+	- [Transponovana matrica](#transponovana-matrica)
+- [Inverzna matrica](#inverzna-matrica)
+- [Kreiranje matrica pomocu Numpy biblioteke](#kreiranje-matrica-pomocu-numpy-biblioteke)
+- [Operacije sa matricama korišćenjem NumPy biblioteke](#operacije-sa-matricama-korišćenjem-numpy-biblioteke)
+- [Kod generisan od strane ChaGpt za resavanje sistema linearnih jednacina matricnom metodom, koriscenjem biblioteke Numpy](#kod-generisan-od-strane-chagpt-za-resavanje-sistema-linearnih-jednacina-matricnom-metodom-koriscenjem-biblioteke-numpy)
 
 
 ## Python Liste - kratki osvrt 
