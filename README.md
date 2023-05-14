@@ -32,7 +32,7 @@
 - [Python Liste - kratki osvrt](#python-liste---kratki-osvrt)
 	- [Formiranje liste u Pythonu](#formiranje-liste-u-pythonu)
 	- [Pristupanje elementima liste pomocu indeksa](#pristupanje-elementima-liste-pomocu-indeksa)
-	- [Dodavanje Elementa na kraju liste](#dodavanje-elementa-na-kraju-liste)
+	- [Dodavanje elementa na kraju liste](#dodavanje-elementa-na-kraju-liste)
 - [Prednosti biblioteke NumPy](#prednosti-biblioteke-numpy)
 - [Kreiranje listi pomocu Numpy biblioteke](#kreiranje-listi-pomocu-numpy-biblioteke)
 	- [Drugi način kreiranja Numpy listi](#drugi-način-kreiranja-numpy-listi)
@@ -92,7 +92,7 @@ listaElemenata[3][1]
 
 Ovo je primer ugnježdene liste. Pošto indeksi u Pythonu kreću od nule, lista u okviru liste sa elementima ['e','m'] se nalazi na trećem indeksu, a elemenat 'm' je u okviru date liste na prvom mestu, tj.indeksu.
 
-### Dodavanje Elementa na kraju liste
+### Dodavanje elementa na kraju liste
 
 **Primer 3:** Dodavanje elementa na kraj listi
 ```python
