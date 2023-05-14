@@ -534,8 +534,15 @@ A^T= \begin{bmatrix}
 \end{bmatrix}
 $$
 
-## inverzna
+## Inverzna matrica
 
+**Inverzna matrica** je kvadratna matrica $A^{-1}$, koja zadovoljava sledeću osobinu $A^{-1} \cdot A=A \cdot A^{-1}=I$, gde je $I$ jedinična matrica.
+
+Kvadratna matrica A je **regularna** ako je $detA \neq 0$, dok je **singularna** ako je $detA=0$.
+**Minor** $M_{ij}$ je determinanta koje sa dobija kada iz determinante D odbacimo $i$-tu vrstu i $j$-kolonu. 
+Minor $M_{33}$ se nalazi na sledeći način.
+
+![image](https://github.com/MilosT82/NumpyListeMatrice/assets/84227323/49409e03-394d-411d-99ec-118f0fc25dc4)
 
 
 
