@@ -1,7 +1,7 @@
 # Numpy liste i matrice
 
 ### Autor: dr Milos Todorov
-NAPOMENA: Materijal sa ovog repozitorijuma, pripremljen je i u vidu PDF, kao i propratni Python kod 
+**NAPOMENA:** Materijal sa ovog repozitorijuma, pripremljen je i u vidu PDF, kao i propratni Python kod 
 <div align="center">
  <h3>
 	<img src="https://miro.medium.com/max/720/1*CDj-lEsfn9HAbpMSNmziLQ.gif"      width="300" 
@@ -544,7 +544,21 @@ Minor $M_{33}$ se nalazi na sledeći način.
 
 ![image](https://github.com/MilosT82/NumpyListeMatrice/assets/84227323/49409e03-394d-411d-99ec-118f0fc25dc4)
 
+**Adjugovana matrica** matrice A u oznaci $adjA$ je transponovana kvadratna matrica koja se dobija od kofaktora matrice A.
 
+$$
+adjA= \left[\begin{array}{cccc}
+A_{11} & A_{21} & \cdots & A_{m 1} \\
+A_{12} & A_{22} & \cdots & A_{m 2} \\
+\vdots & \vdots & & \vdots \\
+A_{1 n} & A_{2 n} & \cdots & A_{m n}
+\end{array}\right]
+$$
+
+Inverzna matrica $A^{-1}$ koja se dobija od kvadratne regularne matrice A jednaka je:
+$A^{-1}= \frac{1}{detA} \cdot adjA$
+
+![image](https://github.com/MilosT82/NumpyListeMatrice/assets/84227323/42e2c581-5f43-4dd8-911e-68455559e06e)
 
 <!-- 
 $$
