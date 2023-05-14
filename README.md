@@ -888,7 +888,17 @@ U okviru ovog poglavlja biće prikazan Python kod za rešavanje sistema linerani
 
 **Primer 24:** Rešiti sistem jednačina matričnom metodom.
 
+$$
+\begin{matrix}
+x+2y+2z=2 \\
+x-2y-3z=0 \\
+x-y-2z=1
+\end{matrix}
+$$
 
+**Rešenje:**
+
+![image](https://github.com/MilosT82/NumpyListeMatrice/assets/84227323/170c4709-de84-45d4-b980-04fd3f3f79c7)
 
 
 U narednom primeru prikazan je kod koji je izgenerisao ChatGpt.
