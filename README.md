@@ -694,6 +694,8 @@ $$
 
 Matrice dimenzija $m \times n$ mogu da se kreiraju pomoću biblioteke Numpy na više načina, a što će biti prikazano u narednim primerima. Najčešće se to radi uz pomoć naredbe array. Ovo je već prikazano kroz primer 2. kada su prikazane dvodimenzinalne liste L2 i L3, a sledi još jedan primer. Treba obratiti pažnju da se matrice definišu pomoću duplih uglastih zagrada, odnosno $[[ , ],[ , ], \cdots , [ , ]]$, a pri tom se mora voditi računa da su iste dužine liste, odnosno o dimenziji matrice. Slede primeri u kojima će biti prikazani načini kreiranja matrica.
 
+**Primer 13: **Kreiranje matrice korišćenjem naredbe array
+
 ```python
 import numpy as np
 M1 = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]]) # Kreiranje matrice koriscenjem naredbe array
