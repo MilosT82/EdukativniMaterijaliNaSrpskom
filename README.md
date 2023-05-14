@@ -536,6 +536,124 @@ $$
 
 ## inverzna
 
+
+
+
+<!-- 
+$$
+\[
+\text{{det}}(A) = \left| \begin{array}{{ccc}}
+a & b & c \\
+d & e & f \\
+g & h & i \\
+\end{array} \right| = (aei + bfg + cdh) - (ceg + bdi + afh)
+\]
+$$
+
+$$
+\begin{matrix}
+A_{11}=(-1)^{1+1} \cdot \begin{bmatrix}
+1 & 1 & 2 \\
+1 & 3 & 1 \\
+4 & 1 & 1
+\end{bmatrix} =\begin{vmatrix}
+3 & 1 \\
+1 & 1
+\end{vmatrix}=2 & 
+A_{21}=(-1)^{2+1} \cdot\begin{vmatrix}
+1 & 1 & 2 \\
+1 & 3 & 1 \\
+4 & 1 & 1
+\end{vmatrix}=-\begin{vmatrix}
+1 & 2 \\
+1 & 1
+\end{vmatrix}=1 & 
+A_{31}=(-1)^{3+1} \cdot\begin{vmatrix}
+1 & 1 & 2 \\
+1 & 3 & 1 \\
+4 & 1 & 1
+\end{vmatrix}=\begin{vmatrix}
+1 & 2 \\
+3 & 1
+\end{vmatrix}=-5\\
+1 & 1 & 1 \\
+2 & 2 & 2
+\end{matrix}
+$$
+
+
+$$
+\begin{aligned}
+&A_{11}=(-1)^{1+1} \cdot \begin{vmatrix}
+1 & 1 & 2 \\
+1 & 3 & 1 \\
+4 & 1 & 1
+\end{vmatrix} =\begin{vmatrix}
+3 & 1 \\
+1 & 1
+\end{vmatrix}=2 A_{21}=(-1)^{2+1} \cdot\begin{vmatrix}
+1 & 1 & 2 \\
+1 & 3 & 1 \\
+4 & 1 & 1
+\end{vmatrix}=-\begin{vmatrix}
+1 & 2 \\
+1 & 1
+\end{vmatrix}=1 \quad A_{31}=(-1)^{3+1} \cdot\begin{vmatrix}
+1 & 1 & 2 \\
+1 & 3 & 1 \\
+4 & 1 & 1
+\end{vmatrix}=\begin{vmatrix}
+1 & 2 \\
+3 & 1
+\end{vmatrix}=-5\\
+&A_{12}=(-1)^{1+2} \cdot\begin{vmatrix}
+1 & 1 & 2 \\
+1 & 3 & 1 \\
+4 & 1 & 1
+\end{vmatrix}=-\begin{vmatrix}
+1 & 1 \\
+4 & 1
+\end{vmatrix}=3 \quad A_{22}=(-1)^{2+2} \cdot\begin{vmatrix}
+1 & 1 & 2 \\
+1 & 3 & 1 \\
+4 & 1 & 1
+\end{vmatrix}=\begin{vmatrix}
+1 & 2 \\
+4 & 1
+\end{vmatrix}=-7 \quad A_{32}=(-1)^{3+2} \cdot\begin{vmatrix}
+1 & 1 & 2 \\
+1 & 3 & 1 \\
+4 & 1 & 1
+\end{vmatrix}=-\begin{vmatrix}
+1 & 2 \\
+1 & 1
+\end{vmatrix}=1\\
+&A_{13}=(-1)^{1+3} \cdot\left|\begin{array}{lll}
+1 & 1 & 2 \\
+1 & 3 & 1 \\
+4 & 1 & 1
+\end{array}\right|=\left|\begin{array}{ll}
+1 & 3 \\
+4 & 1
+\end{array}\right|=-11 \quad A_{23}=(-1)^{2+3} \cdot\left|\begin{array}{lll}
+1 & 1 & 2 \\
+1 & 3 & 1 \\
+4 & 1 & 1
+\end{array}\right|=-\left|\begin{array}{ll}
+1 & 1 \\
+4 & 1
+\end{array}\right|=3 \quad A_{33}=(-1)^{3+3} \cdot\left|\begin{array}{lll}
+1 & 1 & 2 \\
+1 & 3 & 1 \\
+4 & 1 & 1
+\end{array}\right|=\left|\begin{array}{ll}
+1 & 1 \\
+1 & 3
+\end{array}\right|=2
+\end{aligned}
+$$
+
+
 $$
 \begin{array}{llll}
 A_{11} & =\left|\begin{array}{ll}
@@ -570,6 +688,7 @@ A_{13} & =\left|\begin{array}{cc}
 \end{array}\right|=-4
 \end{array}
 $$
+-->
 
 ## Kreiranje matrica pomocu Numpy biblioteke
 
