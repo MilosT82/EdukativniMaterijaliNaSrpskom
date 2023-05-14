@@ -28,6 +28,7 @@
 <p align="left"> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> </p>
 
 
+
 ## Python Liste - kratki osvrt 
 
 - **Liste u Pythonu mogu da sadrže stringove, brojeve, ili druge liste. One služe za skladištenje drugih objekata**
