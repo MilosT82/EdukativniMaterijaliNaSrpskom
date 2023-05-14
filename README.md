@@ -558,7 +558,21 @@ $$
 Inverzna matrica $A^{-1}$ koja se dobija od kvadratne regularne matrice A jednaka je:
 $A^{-1}= \frac{1}{detA} \cdot adjA$
 
-![image](https://github.com/MilosT82/NumpyListeMatrice/assets/84227323/42e2c581-5f43-4dd8-911e-68455559e06e)
+
+**Primer 12:** Naći inverznu matricu $A^{-1}$ matrice
+
+$$
+A= \begin{bmatrix}
+1 & 1 & 2\\
+1 & 3 & 1 \\
+4 & 1 & 1
+\end{bmatrix} \text{.}
+$$
+
+**Rešenje:**
+
+![image](https://github.com/MilosT82/NumpyListeMatrice/assets/84227323/18de16a0-cd82-4705-8a62-63d32f287f4d)
+
 
 <!-- 
 $$
