@@ -694,51 +694,95 @@ $$
 
 Matrice dimenzija $m \times n$ mogu da se kreiraju pomoću biblioteke Numpy na više načina, a što će biti prikazano u narednim primerima. Najčešće se to radi uz pomoć naredbe array. Ovo je već prikazano kroz primer 2. kada su prikazane dvodimenzinalne liste L2 i L3, a sledi još jedan primer. Treba obratiti pažnju da se matrice definišu pomoću duplih uglastih zagrada, odnosno $[[ , ],[ , ], \cdots , [ , ]]$, a pri tom se mora voditi računa da su iste dužine liste, odnosno o dimenziji matrice. Slede primeri u kojima će biti prikazani načini kreiranja matrica.
 
-**Primer 13: **Kreiranje matrice korišćenjem naredbe array
+**Primer 13:** Kreiranje matrice korišćenjem naredbe array
+
+
+
 
 ```python
 import numpy as np
 M1 = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]]) # Kreiranje matrice koriscenjem naredbe array
 print('Matrica M1: \n',M1)
-
-M2 = np.arange(1,10).reshape(3,3) # Kreiranje matrice korscenjem naredbe reshape
-print('Matrica M2: \n',M2)
-
-M3 = np.array([L1,L1]) #Kreiranje matrice, spajanjem dve iste NumPy liste
-print('Matrica M3: \n',M3)
-
-
-P1 = [1, 2.5, 3]
-P2 = [4, 5, 6]
-M4 = np.array([P1,P2]) #Kreiranje matrice, spajanjem dve različite Python liste
-print('Matrica M4: \n',M4)
-
-
-M5 = np.matrix([[1, 2, 3], [4, 5, 6], [7, 8, 9]]) # Kreiranje matrice koriscenjem naredbe matrix
-print('Matrica M5: \n',M5)
 ```
 
     Matrica M1: 
      [[1 2 3]
      [4 5 6]
      [7 8 9]]
+  
+  
+Takođe matrica može da se napravi od jednodimenzionalnog niza elemenata, pomoću naredbe ${\color{red}reshape}$ .
+Kada se koristi ova naredba, mora se obratiti pažnja na dimenzije matrice.
+U narednom primeru biće kreiran jednodimenzionalni niz brojeva od 1 do 9, ali uz pomoć naredbe numpy naredbe arange, koja je prikazana u primeru 5. Korišćenjem date naredbe dobiće se matrica dimenzije 3x3.
+
+
+
+**Primer 14:** Kreiranje matrice korišćenjem naredbe reshape
+
+
+```python
+import numpy as np
+M2 = np.arange(1,10).reshape(3,3) # Kreiranje matrice korscenjem naredbe reshape
+print('Matrica M2: \n',M2)
+```
+
     Matrica M2: 
      [[1 2 3]
      [4 5 6]
      [7 8 9]]
+
+Matrica može da nastane više listi, ili jedne iste, ali moraju biti iste dužine, a što će biti prikazano u naredna dva primera, korišćenjem prethodno definisanih lista iz primera 4.
+
+**Primer 15:** Kreiranje matrice spajanjem dve iste liste L1
+
+
+```python
+import numpy as np
+M3 = np.array([L1,L1]) #Kreiranje matrice, spajanjem dve iste NumPy liste
+print('Matrica M3: \n',M3)
+```
+
     Matrica M3: 
      [[1 1]
      [1 1]]
+    
+
+**Primer 16:** Kreiranje matrice spajanjem dve različite Python liste
+
+
+```python
+import numpy as np
+P1 = [1, 2.5, 3]
+P2 = [4, 5, 6]
+M4 = np.array([P1,P2]) #Kreiranje matrice, spajanjem dve različite Python liste
+print('Matrica M4: \n',M4)
+```
+
     Matrica M4: 
      [[1.  2.5 3. ]
      [4.  5.  6. ]]
+
+Postoji mogućnost da se kreira matrica i pomoću naredbe  ${\color{red}matrix}$.
+
+**Primer 17:** Kreiranje matrice korišćenjem naredbe matrix
+
+
+```python
+import numpy as np
+M5 = np.matrix([[1, 2, 3], [4, 5, 6], [7, 8, 9]]) # Kreiranje matrice koriscenjem naredbe matrix
+print('Matrica M5: \n',M5)
+```
+
     Matrica M5: 
      [[1 2 3]
      [4 5 6]
      [7 8 9]]
     
 
-### Formira se nova lista, ne matricu, pomocu dve liste L1
+Ako spojimo dve liste L1 iz primera 4. na sledeći način, dobićemo listu, koja liči na matricu, ali nije, nego je dupla ista lista.
+
+**Primer 18:** Spajanje dve liste u jednu listu
+
 
 
 ```python
@@ -751,7 +795,10 @@ print(DuplaLista)
     [array([1, 1]), array([1, 1])]
     
 
-### Ako se prvom elementu promeni vrednost na nulu, promenice se u obe liste
+Ako prvom elementu promenimo vrednost na nula, vrednost nula ćemo imati u obe liste, jer je ista lista, a što se vidi iz narednog primera.
+
+**Primer 19:** Dodeliti prvom elementu liste vrednost nula
+
 
 
 ```python
@@ -762,7 +809,10 @@ print(DuplaLista)
     [array([0, 1]), array([0, 1])]
     
 
-### Neka je data matrica sastavljena od dve spojene liste. Ako se zada ista promena vrednosti na nulu, tada se samo prvi elemenat matrice manja na nulu
+Ako istu dodelu vrednosti nula primenimo na matricu M3, iz primera 15. Koja se isto sastoji iz duple liste L1, dobija se vrednost nula na prvom elementu matrice, jer je to matrica, a ne lista. Upravo na ovaj primer treba obratiti pažnju. Sledi primer koji prikazuje promenu vrednosti matrice.
+
+**Primer 20:** Promeniti vrednosti prvog elementa matrice na nulu
+
 
 
 ```python
@@ -775,7 +825,11 @@ print('Matrica M3 sa izmenjenim prvim elementom: \n',M3)
      [1 1]]
     
 
-### Sabiranje matrica
+## Operacije sa matricama korišćenjem NumPy biblioteke
+
+Za prikaz ovih operacije biće korišćeni primeri koji su prethodno objašnjeni u okviru poglavlja Operacije sa matricama. Za početak sledi primer sabiranja matrica, korišćenjem matrica iz primera 6.
+
+**Primer 21:** Sabrati matrica
 
 
 ```python
@@ -791,8 +845,11 @@ print('Zbir dve matrice je matrica C: \n',C)
      [ 0  9 12]
      [-1  1  8]]
     
+Iz prethodnog primera može se uočiti da se rezultati podudaraju, sa primerom 6.
+Sledi primer množenja matrice sa skalarom. Za ovo će biti koriščen primer 7. iz istog poglavlja. Kada se matrica množi sa skalarom, koristi se klasična operacija množenja($\cdot$).
 
-### Mnozenje matrice skalarom
+**Primer 22:** Pomnožiti matricu skalarom
+
 
 
 ```python
@@ -806,7 +863,9 @@ print('Matrica pomnozena skalarom je matrica D: \n',D)
      [ 2  4  8]]
     
 
-### Množenje matrica
+Kada se množe dve matrice, tada ne može da se koristi klasično množenje, nego se koristi Numpy funkcija dot. Sledi primer množenja matrica.
+
+**Primer 23:** Pomnožiti dve matrice
 
 
 ```python
@@ -825,6 +884,16 @@ print('Proizvod dve matrice je matrica F: \n',F)
 
 ## Kod generisan od strane ChaGpt za resavanje sistema linearnih jednacina matricnom metodom, koriscenjem biblioteke Numpy
 
+U okviru ovog poglavlja biće prikazan Python kod za rešavanje sistema lineranih jednačina matričnom metodom, ali uz upotrebu NumPy bibliotke. Kod je izgenerisan primenom veštačke inteligencije **ChatGPT**. Biće prikazan kompletan matematički postupak rešavanja narednog primera, radi boljeg razumevanja zadatka. Dobijeni rezultati su **identični**.
+
+**Primer 24:** Rešiti sistem jednačina matričnom metodom.
+
+
+
+
+U narednom primeru prikazan je kod koji je izgenerisao ChatGpt.
+
+**Primer 25:** Prikazati Python kod izgenerisan od strane ChatGPTza resavanje sistema lin. jednačina
 
 ```python
 import numpy as np
