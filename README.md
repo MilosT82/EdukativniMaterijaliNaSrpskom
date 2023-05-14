@@ -28,15 +28,7 @@
 <p align="left"> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> </p>
 
 
-
-## Table of contents
-- [Python Liste - kratki osvrt](#PythonListe)
-- [Prednosti biblioteke NumPy](#PrednostiNumpy)
-
-
-
-
-## Python Liste - kratki osvrt <a name="PythonListe"></a>
+## Python Liste - kratki osvrt 
 
 - **Liste u Pythonu mogu da sadrže stringove, brojeve, ili druge liste. One služe za skladištenje drugih objekata**
 
@@ -117,7 +109,7 @@ Sledi prikaz date biblioteke.
 
 
 
-## Prednosti biblioteke NumPy  <a name="PrednostiNumpy"></a>
+## Prednosti biblioteke NumPy
 
 
 Neke od prednosti korišćenja biblioteke Numpy:
