@@ -29,7 +29,14 @@
 
 
 
-## Python Liste - kratki osvrt
+## Table of contents
+- [Python Liste - kratki osvrt](#PythonListe)
+- [Prednosti biblioteke NumPy](#PrednostiNumpy)
+
+
+
+
+## Python Liste - kratki osvrt <a name="PythonListe"></a>
 
 - **Liste u Pythonu mogu da sadrže stringove, brojeve, ili druge liste. One služe za skladištenje drugih objekata**
 
@@ -50,7 +57,7 @@
 
 
 
-### Formiranje liste u Pythonu
+### Formiranje liste u Pythonu 
 
 **Primer 1:** Formiranje liste u Pythonu
 ```python
@@ -107,7 +114,11 @@ Ova Python biblioteka se nalazi na sledećoj web adresi:
 
 Sledi prikaz date biblioteke.
 
-## Prednosti biblioteke NumPy
+
+
+
+## Prednosti biblioteke NumPy  <a name="PrednostiNumpy"></a>
+
 
 Neke od prednosti korišćenja biblioteke Numpy:
 - **NumPy kreira niz objekata koji je 50x puta brži od klasičnih Python listi** 
