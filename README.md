@@ -961,7 +961,7 @@ $$
 
 U narednom primeru prikazan je kod koji je izgenerisao ChatGpt.
 
-**Primer 25:** Prikazati Python kod izgenerisan od strane ChatGPTza resavanje sistema lin. jednačina
+**Primer 25:** Prikazati Python kod izgenerisan od strane ChatGPT za resavanje sistema lin. jednačina
 
 ```python
 import numpy as np
