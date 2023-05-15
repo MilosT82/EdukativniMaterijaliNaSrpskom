@@ -1,6 +1,6 @@
 # Numpy liste i matrice
 
-### Autor: dr Milos Todorov
+**Autor:** dr Milos Todorov
 **NAPOMENA:** Materijal sa ovog repozitorijuma, pripremljen je i u vidu PDF, kao i propratni Python kod 
 <div align="center">
  <h3>
