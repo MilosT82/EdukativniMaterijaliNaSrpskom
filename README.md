@@ -263,6 +263,8 @@ je reda 2x3, jer ima 2 vrste i 3 kolone.
 
 Elementi  $a_{11}, a_{22},⋯,a_{mn}$  su na GLAVNOJ DIJAGONALI (označeno plavom bojom), a elementi $a_{1n},⋯,a_{m1}$  su na SPOREDNOJ DIJAGONALI (označeno crvenom bojom).
 
+![image](https://github.com/MilosT82/NumpyListeMatrice/assets/84227323/6fdff449-85ef-4d6d-9134-6122a25b1980)
+
 ## Operacija sa matricama
 
 ### Sabiranje matrica
