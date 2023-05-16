@@ -789,7 +789,7 @@ print('Matrica M2: \n',M2)
      [4 5 6]
      [7 8 9]]
 
-Matrica može da nastane više listi, ili jedne iste, ali moraju biti iste dužine, a što će biti prikazano u naredna dva primera, korišćenjem prethodno definisanih lista iz primera 4.
+Matrica može da nastane od više listi, ili jedne iste, ali moraju biti iste dužine, a što će biti prikazano u naredna dva primera, korišćenjem prethodno definisanih lista iz primera 4.
 
 **Primer 15:** Kreiranje matrice spajanjem dve iste liste L1
 
